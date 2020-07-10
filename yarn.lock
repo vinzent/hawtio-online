@@ -9,7 +9,7 @@
   dependencies:
     "@types/jquery" "2.0.53"
 
-"@hawtio/core@4.13.0", "@hawtio/core@^4.0.0", "@hawtio/core@^4.12.0", "@hawtio/core@~4.10.0":
+"@hawtio/core@4.13.0", "@hawtio/core@^4.0.0", "@hawtio/core@^4.12.0", "@hawtio/core@~4.13.0":
   version "4.13.0"
   resolved "https://registry.yarnpkg.com/@hawtio/core/-/core-4.13.0.tgz#f130ccd985cd0b3f4d0fe78a9e120938c7eea4e5"
   integrity sha512-Rt+oOtIETFR5tl82wwDp0ENPWxzrSsWEB+i3P5bQIvk8O4Rif3Kvn3M39PG4aCZdy6zACkn9Dii95oszAONkpg==
@@ -32,12 +32,13 @@
     typescript "^3.0.3"
     urijs "1.19.0"
 
-"@hawtio/integration@~4.10.0":
-  version "4.10.0"
-  resolved "https://registry.yarnpkg.com/@hawtio/integration/-/integration-4.10.0.tgz#233e40b282ce657ec658d0fb16e949ebdbb10814"
-  integrity sha512-iu7vwX55IcdvnSb225dO49wQv6UOBaN4JX9bqN/evHzd1MjMWTXMwjGy6tilmMKycLx0KrGcRaCW2KsmcUsAow==
+"@hawtio/integration@~4.13.0":
+  version "4.13.5"
+  resolved "https://registry.yarnpkg.com/@hawtio/integration/-/integration-4.13.5.tgz#dde75f547e0c516b36c02d257937e91fc50fe487"
+  integrity sha512-SpC36NWD4rOnAlDfdnTX8K75/sKEfYd8Gdp4m3DiTovKCdvayXdm0Yjl7HaH65fGwBmL4LI2czFcki7y8oMp2w==
   dependencies:
-    "@hawtio/core" "~4.10.0"
+    "@hawtio/core" "^4.12.0"
+    "@types/angular-cookies" "^1.4.5"
     "@types/angular-mocks" "~1.7.0"
     "@types/angular-ui-bootstrap" "~0.13.46"
     "@types/bootstrap" "3.3.36"
@@ -45,6 +46,7 @@
     "@types/jquery" "2.0.53"
     "@types/jqueryui" "1.12.2"
     "@types/js-beautify" "0.0.30"
+    angular-cookies "^1.7.9"
     angular-resizable "1.2.0"
     angular-ui-bootstrap "2.5.6"
     clipboard "~2.0.0"
@@ -84,7 +86,7 @@
     underscore.string "^3.3.4"
     urijs "^1.18.10"
 
-"@hawtio/oauth@4.12.2", "@hawtio/oauth@^4.0.0", "@hawtio/oauth@~4.10.0":
+"@hawtio/oauth@4.12.2", "@hawtio/oauth@^4.0.0", "@hawtio/oauth@~4.12.0":
   version "4.12.2"
   resolved "https://registry.yarnpkg.com/@hawtio/oauth/-/oauth-4.12.2.tgz#36002f614d7523ba55aeb389a84a0258d91571c0"
   integrity sha512-sPob3pMU0lzGMhQ4qGyS5yDYOShHmaYDDGygEZjMO140s61WegEV6S1A+JlR7MZppsX2nWt/em4FZl/A0ypavg==
@@ -782,6 +784,11 @@ arrify@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
   integrity sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=
+
+artemis-plugin-npm@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/artemis-plugin-npm/-/artemis-plugin-npm-0.1.2.tgz#f5891e3101a1ddbb2e7e34e06d48987b674a6ec0"
+  integrity sha512-PZd+S72rq21sxw6bgO0/5tcCffNdLnvSvjRiiFBSFhnbnRM7nABNwYGRZEUbF604obNJewdbAz/F5F0YQOwNmw==
 
 asap@^2.0.0, asap@~2.0.3:
   version "2.0.6"
@@ -3689,7 +3696,7 @@ lodash.uniq@^4.3.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@4.17.4, lodash@^4.0.0, lodash@^4.13.1, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@~1.0.1, lodash@~4.17.0, lodash@~4.17.12:
+lodash@4.17.4, lodash@^4.0.0, lodash@^4.13.1, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@~1.0.1, lodash@~4.17.0, lodash@~4.17.10:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
   integrity sha1-eCA6TRwyiuHYbcpkYONptX9AVa4=
