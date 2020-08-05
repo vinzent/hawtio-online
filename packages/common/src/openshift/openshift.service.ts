@@ -61,7 +61,7 @@ namespace Online {
           this.projects.length = 0;
           this.projects.push(...projects);
           this._loading--;
-        });
+        }, { "environment": "dev"} );
 
         this.projects_client = { collection: projects_client, watch: projects_watch };
         projects_client.connect();
