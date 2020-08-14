@@ -12,7 +12,8 @@ window.OPENSHIFT_CONFIG = {
     oauth_client_id: '${HAWTIO_OAUTH_CLIENT_ID:-hawtio-online}',
     scope: 'user:info user:check-access user:list-projects role:edit:*',
     web_console_url: '${OPENSHIFT_WEB_CONSOLE_URL:-}',
-    cluster_version: '${OPENSHIFT_CLUSTER_VERSION:-}'
+    cluster_version: '${OPENSHIFT_CLUSTER_VERSION:-}',
+    namespace_selector: ${OPENSHIFT_NAMESPACE_SELECTOR:-\{\}}
   }
 };
 EOF
